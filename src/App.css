@@ -1,0 +1,48 @@
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+.heading{
+  color:red;
+  font-family: Roboto;
+  font-size:22px
+}
+.upload-container {
+  margin-bottom: 20px;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-container {
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+
+.uploaded-image {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.drawing-canvas {
+  border: 1px solid #ddd;
+}
+
+.controls {
+  margin: 20px;
+}
+
+.output-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.output-container img {
+  max-width: 200px;
+  max-height: 200px;
+}
